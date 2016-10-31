@@ -1,100 +1,107 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>Барбершоп «Бородинский»</title>
+  <link href="img/favicon.png" rel="icon" type="image/x-icon" />
   <!-- <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <header class="main-header">
-    <div class="container">
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Информация</a>
+  <header class="page-header">
+    <div class="container clearfix">
+      <nav class="page-nav">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="Барбершоп «Бородинский»">
+          </a>
+        </div>
+        <ul class="page-nav__list">
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="#">Информация</a>
+          </li class="page-nav__item">
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="price-list.html">Прайс-лист</a>
           </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Новости</a>
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="shop.html">Магазин</a>
           </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Прайс-лист</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Магазин</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Контакты</a>
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
       <div class="user-block">
-        <a class="user-block__link" class="login" href="#">Вход</a>
+        <a class="user-block__link login" href="#">Вход</a>
       </div>
     </div>
   </header>
-  <main class="main-content clearfix">
-    <div class="container">
-      <h2 class="page-title">Набор для путешествий «Baxter of California»</h2>
+  <main class="page-content price-list-content">
+    <div class="container clearfix">
+      <h2 class="page-content__title">Набор для путешествий «Baxter of California»</h2>
       <div class="breadcrumbs">
         <a class="breadcrumbs__link" href="index.html">Главная</a>
         <a class="breadcrumbs__link" href="shop.html">Магазин</a>
         <a class="breadcrumbs__link" href="products.html">Средства для ухода</a>
-        <a class="breadcrumbs__link" href="product-page.html" class="active">Набор для путешествий «Baxter of California»</a>
+        <a class="breadcrumbs__link active" href="product-page.html">Набор для путешествий «Baxter of California»</a>
       </div>
-
-      <div class="product-gallery clearfix">
-        <img class="product-img--big" src="img/baxter_travel_kit-big.jpg" alt="Baxter of California Travel Kit">
-        <img class="product-img--small" src="img/baxter_travel_kit-1.jpg" alt="Baxter of California Travel Kit">
-        <img class="product-img--small" src="img/baxter_travel_kit-2.jpg" alt="Baxter of California Travel Kit">
-        <img class="product-img--small" src="img/baxter_travel_kit-3.jpg" alt="Baxter of California Travel Kit">
-      </div>
-
-      <div class="product-info">
-        <p class="in-stock">Есть в наличии</p>
-        <p class="item-number">Артикул: Baxter-AE</p>
-        <section class="product-descr">
-          <p>
-            Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
-          </p>
-        </section>
-        <div class="buy clearfix">
-          <div class="price-tag">2900 Руб.</div>
-          <a href="shop.html" class="btn">Купить</a>
+      <div class="shop-item-content--left">
+        <div class="product-gallery">
+          <img class="product-img--big" src="img/baxter-big.jpg" alt="Baxter of California Travel Kit" width="460" height="500">
+          <img class="product-img--small" src="img/baxter-1.jpg" alt="Baxter of California Travel Kit" width="140" height="150">
+          <img class="product-img--small" src="img/baxter-2.jpg" alt="Baxter of California Travel Kit" width="140" height="150">
+          <img class="product-img--small" src="img/baxter-3.jpg" alt="Baxter of California Travel Kit" width="140" height="150">
         </div>
 
-        <h3 class="content__heading">В набор входят:</h3>
-        <ul class="products-list">
-          <li class="products-list-item">Средство для умывания (50 мл)</li>
-          <li class="products-list-item">Увлажняющий крем (50 мл)</li>
-          <li class="products-list-item">Крем для бритья (50 мл)</li>
-          <li class="products-list-item">Крем после бритья, шампунь (50 мл)</li>
-          <li class="products-list-item">Удобная кожанная сумка</li>
-        </ul>
+      </div>
+      <div class="shop-item-content--right">
+        <div class="product-info">
+          <span class="in-stock">Есть в наличии</span>
+          <span class="item-number">Артикул: Baxter-AE</span>
+          <section class="product-descr clearfix">
+            <p>
+              Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья,
+              шампунь. Набор также может стать отличным подарком.
+            </p>
+          </section>
+          <div class="buy clearfix">
+            <span class="price-tag">2900 Руб.</span>
+            <a href="shop.html" class="btn">Купить</a>
+          </div>
 
+          <h3 class="content-heading">В набор входят:</h3>
+          <ul class="products-list">
+            <li class="products-list__item">Средство для умывания (50 мл)</li>
+            <li class="products-list__item">Увлажняющий крем (50 мл)</li>
+            <li class="products-list__item">Крем для бритья (50 мл)</li>
+            <li class="products-list__item">Крем после бритья, шампунь (50 мл)</li>
+            <li class="products-list__item">Удобная кожанная сумка</li>
+          </ul>
+
+        </div>
       </div>
     </div>
   </main>
-
   <footer class="main-footer">
-    <div class="container">
-      <section class="footer-contacts">
-        Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-        <a href="#">Как нас найти?</a><br>
-        Телефон: +7 (812) 666-02-66
+    <div class="container clearfix">
+      <section class="footer__contacts">
+        Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="#">Как нас найти?</a><br> Телефон: +7 (812) 666-02-66
       </section>
-      <section class="footer-social">
+      <section class="footer__social">
         <p>Давайте дружить!</p>
         <a class="social-btn social-btn--vk" href="#">Вконтакте</a>
         <a class="social-btn social-btn--fb" href="#">Фейсбук</a>
         <a class="social-btn social-btn--ig" href="#">Инстаграм</a>
       </section>
-      <section class="footer-copyright">
+      <section class="footer__copyright">
         <p>Разработано:</p>
-        <a class="footer-copyright__link" class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        <a class="footer-copyright__link btn" href="https://htmlacademy.ru">HTML Academy</a>
       </section>
     </div>
   </footer>
-    </body>
-    </html>
+</body>
+
+</html>

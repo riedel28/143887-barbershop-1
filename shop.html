@@ -5,73 +5,72 @@
 <head>
   <meta charset="utf-8">
   <title>Барбершоп «Бородинский»</title>
+  <link href="img/favicon.png" rel="icon" type="image/x-icon" />
   <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header class="main-header--logo">
+  <header class="page-header">
     <div class="container clearfix">
-      <div class="header-logo--small">
-        <img src="img/barbershop_logo_small.png" alt="Барбершоп «Бородинский»">
-      </div>
-      <nav class="main-nav">
-        <ul>
-          <li>
-            <a href="#">Информация</a>
+      <nav class="page-nav">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="Барбершоп «Бородинский»">
+          </a>
+        </div>
+        <ul class="page-nav__list">
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="#">Информация</a>
+          </li class="page-nav__item">
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="price-list.html">Прайс-лист</a>
           </li>
-          <li>
-            <a href="price-list.html">Прайс-лист</a>
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="shop.html">Магазин</a>
           </li>
-          <li>
-            <a href="shop.html">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
+          <li class="page-nav__item">
+            <a class="page-nav__link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
       <div class="user-block">
-        <a class="user-block__link" href="#" class="login">Вход</a>
+        <a class="user-block__link login" href="#">Вход</a>
       </div>
     </div>
   </header>
-  <main class="main-content clearfix">
-    <div class="container">
-
-      <h1 class="page-title">Средства для ухода</h1>
-
+  <main class="page-content">
+    <div class="container clearfix">
+      <h2 class="page-content__title">Средства для ухода</h2>
       <div class="breadcrumbs">
-        <a href="index.html">Главная</a>
-        <a href="shop.html">Магазин</a>
-        <a href="products.html" class="active">Средства для ухода</a>
+        <a class="breadcrumbs__link" href="index.html">Главная</a>
+        <a class="breadcrumbs__link" href="shop.html">Магазин</a>
+        <a class="breadcrumbs__link active" href="products.html">Средства для ухода</a>
       </div>
-
       <aside class="products-filter">
 
-        <h3 class="heading">Производители:</h3>
+        <h3 class="content-heading">Производители:</h3>
         <form class="filter" action="https://echo.htmlacademy.ru" method="get">
-          <label for="baxter">
+          <label for="baxter"></label>
             <input id="baxter" type="checkbox" name="baxter" checked> Baxter of California
-          </label>
-          <label for="mrnatty">
-            <input id="mrnatty" type="checkbox" name="mrnatty"> Mr Natty
-          </label>
-          <label for="suavecito">
-            <input id="suavecito" type="checkbox" name="suavecito" checked> Suavecito
-          </label>
-          <label for="malingoetz">
-            <input id="malingoetz" type="checkbox" name="malingoetz"> Malin+Goetz
-          </label>
-          <label for="murrays">
-            <input id="murrays" type="checkbox" name="murrays"> Murray's
-          </label>
-          <label for="americancrew">
-            <input id="americancrew" type="checkbox" name="americancrew" checked> American Crew
-          </label>
+          <labgaller-img-1</label>
 
-          <h3 class="heading">Группы товаров:</h3>
+            <input id="mrnatty" type="checkbox" name="mrnatty"> Mr Natty
+          <label for="suavecito">          </label>
+
+            <input id="suavecito" type="checkbox" name="suavecito" checked> Suavecito
+          <label for="malingoetz">          </label>
+
+            <input id="malingoetz" type="checkbox" name="malingoetz"> Malin+Goetz
+          <label for="murrays">          </label>
+
+            <input id="murrays" type="checkbox" name="murrays"> Murray's
+          <label for="americancrew">          </label>
+
+            <input id="americancrew" type="checkbox" name="americancrew" checked> American Crew
+
+          <h3 class="content-heading">Группы товаров:</h3>
           <label for="razorset">
             <input id="razorset" type="radio" name="product-group"> Бритвенные принадлежности
           </label>
@@ -89,54 +88,54 @@
 
       <section class="products-gallery">
         <article class="product-card">
-          <img class="product-card__img" src="img/baxter_travel_set.jpg" alt="Набор для путешествий
-          «Baxter of California»">
+          <img class="product-card__img" src="img/gallery-img-1.jpg" alt="Набор для путешествий
+          «Baxter of California»" width="220" height="170">
           <span class="product-category">Набор для путешествий</span>
 
           <span class="product-name">«Baxter of California»</span>
-          <span class="price-tag">2900 Руб.</span>
-          <a href="shop.html" class="btn">Купить</a>
+          <span class="product-card__price">2900 Руб.</span>
+          <a href="shop.html" class="product-card_btn btn">Купить</a>
 
         </article>
         <article class="product-card">
-          <img class="product-card__img" src="img/baxter_conditioner.jpg" alt="Увлажняющий кондиционер
-          «Baxter of California»">
+          <img class="product-card__img" src="img/gallery-img-2.jpg" alt="Увлажняющий кондиционер
+          «Baxter of California»" width="220" height="170">
           <span class="product-category">Увлажняющий кондиционер</span>
           <span class="product-name">«Baxter of California»</span>
-          <span class="price-tag">2900 Руб.</span>
-          <a href="shop.html" class="btn">Купить</a>
+          <span class="product-card__price">2900 Руб.</span>
+          <a href="shop.html" class="product-card_btn btn">Купить</a>
         </article>
         <article class="product-card">
-          <img class="product-card__img" src="img/suavecito_gel.jpg" alt="Гель для волос
-          «SUAVECITO»">
+          <img class="product-card__img" src="img/gallery-img-3.jpg" alt="Гель для волос
+          «SUAVECITO»" width="220" height="170">
           <span class="product-category">Гель для волос</span>
           <span class="product-name">«SUAVECITO»</span>
-          <span class="price-tag">2900 Руб.</span>
-          <a href="shop.html" class="btn">Купить</a>
+          <span class="product-card__price">2900 Руб.</span>
+          <a href="shop.html" class="product-card_btn btn">Купить</a>
         </article>
         <article class="product-card">
-          <img class="product-card__img" src="img/american_crew_clay.jpg" alt="Глина для укладки волос
-          «American crew»">
+          <img class="product-card__img" src="img/gallery-img-4.jpg" alt="Глина для укладки волос
+          «American crew»" width="220" height="170">
           <span class="product-category">Глина для укладки волос</span>
           <span class="product-name">«American crew»</span>
-          <span class="price-tag">2900 Руб.</span>
-          <a href="shop.html" class="btn">Купить</a>
+          <span class="product-card__price">2900 Руб.</span>
+          <a href="shop.html" class="product-card_btn btn">Купить</a>
         </article>
         <article class="product-card">
-          <img class="product-card__img" src="img/american_crew_gel.jpg" alt="Гель для волос
-          «American crew»">
+          <img class="product-card__img" src="img/gallery-img-5.jpg" alt="Гель для волос
+          «American crew»" width="220" height="170">
           <span class="product-category">Гель для волос</span>
           <span class="product-name">«American crew»</span>
-          <span class="price-tag">2900 Руб.</span>
-          <a href="shop.html" class="btn">Купить</a>
+          <span class="product-card__price">2900 Руб.</span>
+          <a href="shop.html" class="product-card_btn btn">Купить</a>
         </article>
         <article class="product-card">
-          <img class="product-card__img" src="img/baxter_shaving_set.jpg" alt="Набор для бритья
-          «Baxter of California»">
+          <img class="product-card__img" src="img/gallery-img-6.jpg" alt="Набор для бритья
+          «Baxter of California»" width="220" height="170">
           <span class="product-category">Набор для бритья</span>
           <span class="product-name">«Baxter of California»</span>
-          <span class="price-tag">2900 Руб.</span>
-          <a href="shop.html" class="btn">Купить</a>
+          <span class="product-card__price">2900 Руб.</span>
+          <a href="shop.html" class="product-card__btn btn">Купить</a>
         </article>
         <ul class="pagination">
           <li class="pagination__item">
@@ -159,22 +158,20 @@
   </main>
 
   <footer class="main-footer">
-    <div class="container">
-      <section class="footer-contacts">
-        Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-        <a href="#">Как нас найти?</a><br>
-        Телефон: +7 (812) 666-02-66
+    <div class="container clearfix">
+      <section class="footer__contacts">
+        Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="#">Как нас найти?</a><br> Телефон: +7 (812) 666-02-66
       </section>
-      <section class="footer-social">
+      <section class="footer__social">
         <p>Давайте дружить!</p>
         <a class="social-btn social-btn--vk" href="#">Вконтакте</a>
         <a class="social-btn social-btn--fb" href="#">Фейсбук</a>
         <a class="social-btn social-btn--ig" href="#">Инстаграм</a>
       </section>
-      <section class="footer-copyright">
+      <section class="footer__copyright">
         <p>Разработано:</p>
-        <a class="footer-copyright__link" class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        <a class="footer-copyright__link btn" href="https://htmlacademy.ru">HTML Academy</a>
       </section>
     </div>
   </footer>
