@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Барбершоп «Бородинский»</title>
   <link href="img/favicon.png" rel="icon" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -18,7 +19,7 @@
             <a class="main-nav__link" href="#">Информация</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Новости</a>
+            <a class="main-nav__link" href="#news">Новости</a>
           </li>
           <li class="main-nav__item">
             <a class="main-nav__link" href="price-list.html">Прайс-лист</a>
@@ -27,12 +28,13 @@
             <a class="main-nav__link" href="shop.html">Магазин</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Контакты</a>
+            <a class="main-nav__link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
       <div class="user-block">
-        <a class="user-block__link login" href="#">Вход</a>
+        <a class="user-block__link login" href="#">
+          Вход</a>
       </div>
     </div>
   </header>
@@ -54,7 +56,7 @@
         <p class="features_descr">Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
       </div>
     </section>
-    <div class="index-content clearfix">
+    <div class="index-content clearfix" id="news">
       <div class="index-content-left">
         <h2 class="index-content__title">Новости</h2>
         <ul class="news-preview">
@@ -80,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="index-content clearfix">
+    <div class="index-content clearfix" id="contacts">
       <div class="index-content-left">
         <h2 class="index-content__title">Контактная информация</h2>
         <p>
